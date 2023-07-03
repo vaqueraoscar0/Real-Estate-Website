@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Real-Estate-Website/static/css/main.c72ad9bb.css",
-    "main.js": "/Real-Estate-Website/static/js/main.979b6568.js",
+    "main.js": "/Real-Estate-Website/static/js/main.b36bf253.js",
     "static/js/787.cda612ba.chunk.js": "/Real-Estate-Website/static/js/787.cda612ba.chunk.js",
     "static/media/krakenimages-376KN_ISplE-unsplash.jpg": "/Real-Estate-Website/static/media/krakenimages-376KN_ISplE-unsplash.7fecf7a78d6fb0a0d0d6.jpg",
     "static/media/werner-sevenster-JuP0ZG0UNi0-unsplash.jpg": "/Real-Estate-Website/static/media/werner-sevenster-JuP0ZG0UNi0-unsplash.f9a79763117cd0b25ca4.jpg",
@@ -17,11 +17,11 @@
     "static/media/svg": "/Real-Estate-Website/static/media/9359695971668214040.47f69a7606304acbbf5abd4d34f7f538.svg",
     "index.html": "/Real-Estate-Website/index.html",
     "main.c72ad9bb.css.map": "/Real-Estate-Website/static/css/main.c72ad9bb.css.map",
-    "main.979b6568.js.map": "/Real-Estate-Website/static/js/main.979b6568.js.map",
+    "main.b36bf253.js.map": "/Real-Estate-Website/static/js/main.b36bf253.js.map",
     "787.cda612ba.chunk.js.map": "/Real-Estate-Website/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c72ad9bb.css",
-    "static/js/main.979b6568.js"
+    "static/js/main.b36bf253.js"
   ]
 }
