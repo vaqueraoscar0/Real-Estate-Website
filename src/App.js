@@ -76,7 +76,7 @@ function App(key, value) {
     <StateContext.Provider value={state}>
       <DispatchContext.Provider value={dispatch}>
         <StyledEngineProvider injectFirst>
-            <BrowserRouter>
+            <BrowserRouter basename={"/Real-Estate-Website"}>
               <Header/>
               <Routes>
                 <Route path={'/'} element={<Home/>}/>

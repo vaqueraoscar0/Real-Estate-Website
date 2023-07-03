@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Location-Based Real Estate Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a location-based real estate website project developed as part of a course. It is a full stack web application with Django powering the backend and React Js handling the frontend.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+    - [Technologies Used](#technologies-used)
+    - [Features](#features)
+- [Database](#database)
+- [Contact](#contact)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Location-Based Real Estate Website project is a full stack web application that combines Django and React Js to create a platform for showcasing real estate listings. The website utilizes Material UI, a React library for building UI components, to design and style the frontend. Leaflet, a JavaScript library for interactive maps, is integrated with React using React-Leaflet to add a geographic aspect to the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The PostgreSQL database used in this project is made spatially aware by adding the PostGIS extension. This allows for both regular and spatial queries, including geometric information such as distance calculations.
 
-### `npm test`
+User authentication is implemented using the Djoser library, enabling users to add, delete, or update property listings from the frontend. Error handling for both client-side and server-side errors in forms is also covered.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Real-Estate-Img](./src/Components/assets1/img6.png)
+![Real-Estate-Img](./src/Components/assets1/img5.png)
+![Real-Estate-Img](./src/Components/assets1/img2.png)
+![Real-Estate-Img](./src/Components/assets1/img1.png)
+![Real-Estate-Img](./src/Components/assets1/img3.png)
+![Real-Estate-Img](./src/Components/assets1/img4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Live Demo](https://vaqueraoscar0.github.io/frontendmentor.io-news-homepage)
+- [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/news-homepage-using-react-and-bootstrap-Vv80C9VQr)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project utilizes the following technologies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Django
+- React 18.2
+- Material UI 5
+- React-Leaflet
+- Django Rest Framework
+- PostGIS
+- Djoser
+- Leaflet
+- PostgreSQL
+- Python
+- Heroku
+- Bootstrap
+- Google Cloud Tools
 
-## Learn More
+### Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Location-Based Real Estate Website project includes the following features:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Full stack web application with Django and React Js
+- Material UI for easy and intuitive UI component creation
+- Interactive maps using React-Leaflet and Leaflet library
+- Building API endpoints with Django Rest Framework
+- User authentication with Djoser
+- Spatial queries and calculations with Geodjango and PostGIS
+- Error handling for client-side and server-side form errors
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Database
 
-### Analyzing the Bundle Size
+The Location-Based Real Estate Website utilizes a PostgreSQL database hosted on a private virtual machine instance. This database was set up using Google Cloud Platform's tools.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+If you have any questions or need further assistance, please feel free to reach out. You can contact me at [vaqueraoscar0](mailto:vaqueraoscar0@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ABDEL DIOUF](https://www.udemy.com/share/106hW23@1XrA8k1iV11RrXCbhq5auIXyhRRSPKvq603HPIg9wyQFh8a-K5E1GzH1uPpEdt9U/)
