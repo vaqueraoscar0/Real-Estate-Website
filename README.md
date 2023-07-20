@@ -32,8 +32,7 @@ User authentication is implemented using the Djoser library, enabling users to a
 
 ### Links
 
-- [Live Demo](https://vaqueraoscar0.github.io/frontendmentor.io-news-homepage)
-- [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/news-homepage-using-react-and-bootstrap-Vv80C9VQr)
+- [Live Demo](https://vaqueraoscar0.github.io/Real-Estate-Website/)
 
 
 
